@@ -1,0 +1,295 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Common Shared Styles*/
+
+.btn-primary{
+    color: white;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+
+/* Nav Section Styles start*/
+
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 240px 0px 240px;
+}
+
+.nav-text{
+    width: 680px;
+}
+
+.nav-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.nav-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* Nav Section Styles End*/
+
+/* Main Section Styles Start*/
+
+    /* Featured Section Styles Start*/
+
+.featured-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 180px;
+
+}
+
+.featured-container-title{
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+.featured-container-description{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 630px;
+}
+
+.flower-tree-container{
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+
+.flower-tree-one-image{
+    width: 450px;
+    height: 450px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding-top: 40px;
+    text-align: center;
+    
+}
+
+.flower-tree-title{
+    margin-top: 30px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.flower-tree-two-image{
+    width: 450px;
+    height: 450px;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.flower-tree-three-image{
+    width: 450px;
+    height: 450px;
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding-top: 50px;
+    text-align: center;
+}
+    /* Featured Section Styles End*/
+
+    /* Delivery Section Styles Start*/
+
+.delivery-container{
+    width: 1200px;
+    height: 200px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 80px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.delivery-container p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 15px;
+
+    }
+
+    /* Delivery Section Styles End*/
+
+    /* Sale Section Styles Start*/
+
+.sale-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 80px;
+    padding: 30px 250px;
+}
+
+.sale-text{
+    text-align: center;
+}
+.sale-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.off{
+    color: #E55473;
+}
+
+.sale-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+    /* Sale Section Styles Start*/
+
+    /* Social Section Styles Start*/
+
+.social-container h1{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-container p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 620px;
+}
+
+.social-container img{
+    width: 250px ;
+    padding-right: 20px;
+}
+
+.social-image{
+    text-align: center;
+    margin-top: 20px;
+    }
+
+    /* Social Section Styles End*/
+
+    /* information Section Styles Start*/
+
+.information-container{
+    height: 100px;
+    text-align: center;
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    margin: 80px 395px 70px 375px;
+    padding-top: 60px;
+    padding-bottom: 150px;
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.information-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.information-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.information-container input{
+    padding: 15px;
+    width: 400px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+    /* information Section Styles End*/
+
+/* Main Section Styles End*/
+
+/* footer Section Styles Start*/
+
+footer{
+    background: #111010;
+    text-align: center;
+    padding: 100px 620px;
+}
+
+footer h1{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.shop{
+    color: white;
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.footer-last{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* footer Section Styles End*/
